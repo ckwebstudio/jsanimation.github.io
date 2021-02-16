@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.containerFluid {
+  width: 100%;
+}
+/* navbar starts */
+
+.nav-background {
+  background-color: black;
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  transition: ease-in 0.8s;
+}
+
+.menu-section {
+  display: flex;
+}
+
+/* hamburger icon */
+
+.hamburger {
+  margin: 20px 0px;
+  display: none;
+}
+
+.nav-line {
+  width: 35px;
+  height: 5px;
+  background-color: var(--col-white);
+  margin: 5px 0;
+}
+
+.logo-text {
+  color: var(--col-white);
+  margin: 10px 10px;
+}
+
+.cart-img {
+  width: 50px;
+  padding: 10px;
+}
+
+.cart-img-1 {
+  width: 50px;
+  padding: 10px;
+  display: none;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: var(--col-white);
+}
+
+.a-text {
+  margin: 10px 10px;
+}
+
+.search-input {
+  background-color: var(--col-white);
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background-color: var(--col-theme);
+  padding: 8px;
+  border: 2px var(--col-white);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--col-white);
+}
+
+.search-btn:hover {
+  background-color: var(--col-white);
+  color: var(--col-dark);
+  transition: all ease 0.3s;
+}
+
+.login-btn {
+  background-color: var(--col-success);
+  margin: 20px 5px;
+  padding: 8px;
+  border: 2px var(--col-white);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--col-white);
+}
+
+.login-btn:hover {
+  background-color: var(--col-white);
+  color: var(--col-dark);
+  transition: all ease 0.3s;
+}
+
+.signup-btn {
+  background-color: var(--col-primary);
+  margin: 20px 0px;
+  padding: 8px;
+  border: 2px var(--col-white);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--col-white);
+}
+
+.signup-btn:hover {
+  background-color: var(--col-white);
+  color: var(--col-dark);
+  transition: all ease 0.3s;
+}
+/* navbar ends */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #d2cbff;
+  overflow-y: auto;
+}
+.fastSection {
+  position: relative;
+}
+.heroContentLeft {
+  padding: 20px 130px;
+}
+.heroContentLeft h1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+.heroContentLeft p {
+  font-size: 20px;
+}
+.ctaBtn {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+}
+.ctaBtn a {
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.buyNow {
+  background-color: purple;
+}
+.getInTouch {
+  background-color: blue;
+}
+
+/* entrance and up and down animation */
+.rocketBox {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation-delay: 1s;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.rocket1 {
+  width: 300px;
+  position: relative;
+  animation: moverocket 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes moverocket {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50px;
+  }
+}
+.rocket2 {
+  display: none;
+  width: 300px;
+  position: relative;
+  animation: moverocket 1s;
+  animation-iteration-count: infinite;
+}
+.rocket3 {
+  display: none;
+  width: 300px;
+  position: relative;
+  animation: moverocket 1s;
+  animation-iteration-count: infinite;
+}
+/* entrance and up and down animation */
+
+/* Second Section Css Starts */
+.secondSection {
+  display: grid;
+  place-content: center;
+  color: white;
+  animation: 2s ease-in 0s 1 slideInFromTop;
+  animation-delay: 1s;
+  height: 100vh;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* background properties right section */
+.background {
+  background-color: #18154c;
+  transition: ease 1s;
+}
+.background1 {
+  background: url(/img/background1.svg);
+  transition: ease 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2 {
+  background: url(/img/background2.svg);
+  transition: ease 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background3 {
+  background: url(/img/background3.svg);
+  transition: ease 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* background properties right section */
+/* right section content styling */
+.target {
+  padding: 10px;
+  overflow-y: auto;
+}
+.target h1 {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.target h2 {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.target p {
+  padding: 10px 30px;
+}
+/* right section content styling */

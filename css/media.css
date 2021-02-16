@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1100px) {
+  /* css for navbar only */
+  .grid-container-2 {
+    grid-template-columns: 100%;
+  }
+  .grid-container-3 {
+    grid-template-columns: 100%;
+  }
+  .nav-left {
+    display: block;
+  }
+  .menu-section {
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 10px;
+  }
+  .cart-img {
+    display: none;
+  }
+  .cart-img-1 {
+    display: block;
+  }
+  .nav-ul {
+    display: block;
+  }
+  .nav-right {
+    display: block;
+    text-align: center;
+  }
+  .h-nav-res {
+    height: 70px;
+  }
+  .login-btn,
+  .signup-btn {
+    width: 45%;
+  }
+  .search-input {
+    width: 65%;
+  }
+  .search-btn {
+    width: 25%;
+    margin-left: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
+  /* css for navbar only */
+
+  .rocket1,
+  .rocket2,
+  .rocket3 {
+    width: 200px;
+  }
+  .heroContentLeft {
+    padding: 19px 50px;
+    margin-top: 70px;
+  }
+  .heroContentLeft h1 {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 26px;
+  }
+  .heroContentLeft p {
+    font-size: 16px;
+  }
+  .ctaBtn {
+    top: 70%;
+    left: 15%;
+  }
+  .target h1 {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  .target p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .heroContentLeft {
+    padding: 16px 30px;
+  }
+  .rocketBox {
+    top: 30%;
+    left: 20%;
+  }
+  .ctaBtn {
+    display: grid;
+  }
+  .ctaBtn a {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .add-to-cart-btn,
+  .signup-btn {
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+
+  /* rocket animation css */
+  .heroContentLeft {
+    margin-top: 5px;
+  }
+  .heroContentLeft h1 {
+    font-size: 18px;
+  }
+  .rocket1,
+  .rocket2,
+  .rocket3 {
+    width: 140px;
+  }
+  .ctaBtn {
+    top: 60%;
+    left: 10%;
+  }
+}
