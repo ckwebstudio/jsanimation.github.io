@@ -238,19 +238,19 @@
   transition: ease 1s;
 }
 .background1 {
-  background: url(/img/background1.svg);
+  background: url(https://ckwebstudio.github.io/jsanimation.github.io/img/background1.svg);
   transition: ease 1s;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background2 {
-  background: url(/img/background2.svg);
+  background: url(https://ckwebstudio.github.io/jsanimation.github.io/img/background2.svg);
   transition: ease 1s;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .background3 {
-  background: url(/img/background3.svg);
+  background: url(https://ckwebstudio.github.io/jsanimation.github.io/img/background3.svg);
   transition: ease 1s;
   background-repeat: no-repeat;
   background-size: cover;
